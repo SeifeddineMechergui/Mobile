@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quelle est votre spécialite"
+        android:textColor="#FF0000">
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSpecialiteType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radDsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DSI"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radSem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radRsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RSI"></RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/otheri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quelle est votre club"
+        android:textColor="#FF0000"></TextView>
+
+    <CheckBox
+        android:id="@+id/chAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/chMicrosoft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microsoft">
+    </CheckBox>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afficher"
+        android:id="@+id/Button"
+        ></Button>
+
+
+</LinearLayout>
